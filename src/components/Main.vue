@@ -1,0 +1,69 @@
+<template>
+  <main>
+    <RepositoryList />
+  </main>
+</template>
+<script>
+import RepositoryList from './RepositoryList.vue';
+
+export default {
+  name: 'Main',
+  components: {
+    RepositoryList,
+  },
+};
+</script>
+<style lang="scss">
+main {
+  max-width: 540px;
+  width: 94vw;
+  height: 80vh;
+  display: flex;
+  margin: 0 auto;
+
+  ul {
+    margin-top: 18vh;
+    list-style: none;
+
+    li {
+      display: flex;
+      flex-direction: row;
+
+      img {
+        height: 60px;
+        width: 60px;
+      }
+
+      span {
+        margin-left: 10px;
+
+        strong {
+          text-transform: uppercase;
+          font-weight: 500;
+        }
+
+        p {
+          margin-top: 5px;
+        }
+
+        a {
+          display: inline-block;
+          margin-top: 5px;
+          text-decoration: none;
+          color: #51476e;
+        }
+      }
+
+      & + li {
+        margin-top: 15px;
+      }
+
+      &:last-child {
+        a {
+          margin-bottom: 7vh;
+        }
+      }
+    }
+  }
+}
+</style>

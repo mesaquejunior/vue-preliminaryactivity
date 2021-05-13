@@ -1,24 +1,11 @@
-# vue-preliminaryactivity
+<h1 align="center">
+    <img alt="Ignite" src="https://raw.githubusercontent.com/mesaquejunior/vue-preliminaryactivity/main/src/assets/igti.jpg" width="200px" />
+</h1>
 
-## Project setup
-```
-yarn install
-```
+<h3 align="center">
+  IGTI - Vue JS
+</h3>
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## :computer: About this App:
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+The application goal is to meet the requirements of the preliminary activity of the Reactive Development discipline of the MBA Full Stack.
